@@ -1,0 +1,750 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #FFFFFF;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    margin: 0;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 48px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.title-text{
+    margin: 0;
+    font-family: Segoe UI;
+    font-style: Regular;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 48px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.subtitle {
+    color: #555;
+    border-radius: 99px;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13.89px;
+    leading-trim: NONE;
+    line-height: 25px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 196;
+    height: 45;
+    border-radius: 99px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 204.47px;
+    gap: 8px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    border: none;
+}
+
+.sup-text{
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 15.1899995803833;
+    height: 18;
+    angle: 0 deg;
+    opacity: 1;
+    top: 70.8px;
+    left: 79.33px;
+}
+
+.text-style{
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 27px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.rating-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-container{
+    display: flex;
+    justify-content: space-between;
+    width: 211.8800048828125;
+    height: 21;
+    angle: 0 deg;
+    opacity: 1;
+    top: 294.31px;
+    left: 438.13px;
+}
+
+.rating{
+    width: 120px;
+    height: 24px;
+    background: url("https://res.cloudinary.com/dwnmq44oa/image/upload/v1756567277/SVG_liv576.png") repeat-x;
+    background-size: 24px 24px;
+
+}
+
+.rating-icon{
+    width: 18;
+    height: 18;
+    angle: 0 deg;
+    opacity: 1;
+    left: 45.12px;
+
+}
+
+.review-text{
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.certificates {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.certificate-img {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.price {
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 18.62px;
+    letter-spacing: 1.5px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.payment-main-container{
+    background: #F2F2F2;
+    width: 650;
+    height: 144.1999969482422;
+    border-radius: 25px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 1019.64px;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 1.5rem;
+}
+
+.payment-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchacse-button{
+    background: #F1B434;
+    border: 1px solid #F1B434;
+    width: 287.5;
+    height: 64.80000305175781;
+    border-radius: 50px;
+    border-width: 1px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 28px;
+    left: 30px;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15.88px;
+    leading-trim: NONE;
+    line-height: 17.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button-text-alignment{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.subscribe-button{
+    background: #FFFFFF;
+    border: 1px solid #F1B434;
+    width: 287.5;
+    height: 64.80000305175781;
+    border-radius: 50px;
+    border-width: 1px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 28px;
+    left: 332.5px;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15.88px;
+    leading-trim: NONE;
+    line-height: 17.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #313131;
+}
+
+.about-subscription{
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    width: 147.8300018310547;
+    height: 16;
+    angle: 0 deg;
+    opacity: 1;
+    left: 24px;
+}
+
+.subscription-conatiner{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 171.6300048828125;
+    height: 16;
+    angle: 0 deg;
+    opacity: 1;
+    top: 100.2px;
+    left: 30px;
+    border-radius: 50px;
+}
+
+.icon-size{
+    width: 16;
+    height: 16;
+    angle: 0 deg;
+    opacity: 1;
+    margin: 10px;
+}
+
+.quantity-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+    background: #F1B434;
+    border-radius: 41px;
+    gap: 2rem;
+}
+
+.qunatity-text{
+    width: 195;
+    height: 47;
+    angle: 0 deg;
+    opacity: 1;
+    top: 25.5px;
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cart-button{
+    border-radius: 41px;
+    border-width: 1px;
+    background: #313131;
+    border: 1px solid #313131;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.size-options {
+    margin: 1rem 0;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.size-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+.size-btn:hover {
+    border-color: #333;
+}
+
+.size-btn.active {
+    background: #333;
+    color: #fff;
+}
+
+.add-to-cart {
+    padding: 0.8rem;
+    border: none;
+    background: #ff9800;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.add-to-cart:hover {
+    background: #e68900;
+}
+
+.description h3 {
+    margin: 0.5rem 0;
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.main-card {
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 56rem;
+}
+
+.beauty-bundle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:768px){
+    .page-container{
+        flex-direction: column;
+    }
+    .beauty-bundle-container{
+        flex-direction: column;
+    }
+    .product-container{
+        flex-direction: column;
+    }
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    position: relative;
+}
+
+.header-button {
+    position: absolute;
+    padding: 0.5rem;
+    color: #6b7280;
+    border-radius: 9999px;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+.header-button:hover {
+    background-color: #e5e7eb;
+}
+
+.header-button.left {
+    left: 1rem;
+}
+
+.header-button.right {
+    right: 1rem;
+}
+
+.header-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.product-container-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .product-section {
+        flex-direction: row;
+        align-items: center;
+    }
+    .product-container-images{
+        flex-direction: row;
+    }
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.product-image-container {
+    position: relative;
+}
+
+.product-image {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 0.75rem;
+    object-fit: cover;
+}
+
+.plus-icon {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #9ca3af;
+    font-weight: 300;
+}
+
+.product-name {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.product-select {
+    margin-top: 0.25rem;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    width: 7rem;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.pricing-section {
+    padding: 2rem;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.original-price {
+    font-size: 1.25rem;
+    color: #9ca3af;
+    text-decoration: line-through;
+}
+
+.discounted-price {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.save-badge {
+    background-color: transparent;
+    color: #065f46;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+}
+
+.add-to-cart-button {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: transform 200ms;
+}
+
+.add-to-cart-button:active {
+    transform: scale(0.95);
+}
+
+.rewards-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.rewards-icon-container {
+    flex-shrink: 0;
+}
+
+.rewards-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+}
+
+.rewards-text {
+    font-size: 0.875rem;
+    color: #4b5563;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: none;
+    line-height: 18.62px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.rewards-text .bold {
+    font-weight: 700;
+    color: #F39C12;
+}
+
+.delivery-afterpay-section {
+    padding: 2rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.delivery-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and  (min-width: 768px) {
+    .delivery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .delivery-grid .text-right {
+        text-align: right;
+    }
+}
+
+.delivery-grid p {
+    font-size: 0.875rem;
+}
+
+.delivery-grid .title {
+    font-weight: 600;
+}
+
+.delivery-grid .subtitle {
+    color: #4b5563;
+}
+
+.afterpay-container {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.afterpay-container .title {
+    font-weight: 600;
+}
+
+.afterpay-container .text {
+    color: #4b5563;
+}
+
+.afterpay-container .brand-name {
+    font-weight: 700;
+    color: #10b981;
+    margin-left: 0.25rem;
+}
+
+.umf-taste-section {
+    padding: 2rem;
+}
+
+.umf-scale-section {
+    margin-bottom: 1.5rem;
+}
+
+.umf-scale-section h3, .taste-profile-section h3 {
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.umf-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.umf-item {
+    padding: 0.5rem;
+    border-radius: 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+}
+
+.umf-item.active {
+    border-bottom-width: 8px;
+    font-weight: 700;
+    color: currentColor;
+}
+
+.umf-item.inactive {
+    color: #6b7280;
+}
+
+
+.umf-10 {
+    border-bottom-color: #E87722;
+}
+
+.umf-15 {
+    border-bottom-color: #E10600;
+}
+
+.umf-20 {
+    border-bottom-color: #CE0F69;
+}
+
+.umf-24 {
+    border-bottom-color: #830065;
+}
+
+.umf-26 {
+    border-bottom-color: #0085CA;
+}
+
+.umf-28 {
+    border-bottom-color: #3BAD4E;
+}
+
+.umf-30 {
+    border-bottom-color: #203E96;
+}
+
+
+.taste-profile-section .bar-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    height: 0.5rem;
+    background-color: #e5e7eb;
+    border-radius: 9999px;
+}
+
+.taste-profile-section .bar-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, #E87722 0%, #E10600 28%, #CE0F69 42%, #830065 57%, #0085CA 71%, #3BAD4E 85%, #203E96 100%);
+}
+
+.taste-profile-section .bar-marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 9999px;
+    background-color: #0a0a0a;
+    border: 1px solid #9ca3af;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.taste-profile-section .bar-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    color: #4b5563;
+}
